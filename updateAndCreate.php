@@ -3,6 +3,9 @@ include('./DB.php');
 include('./News.php');
 include('./User.php');
     session_start();
+    if(!isset($_SESSION['user'])){
+        header("Location:admin.php");
+    }
 ?>
 
 <!DOCTYPE html>

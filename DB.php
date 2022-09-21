@@ -1,9 +1,9 @@
 <?php
 class DB {
     protected static function launchQuery($sql) {
-        $DBServer = "localhost";
-        $username = "root";
-        $pass = "";
+        $DBServer = "localhost";  //수정해주세요   
+        $username = "root";  //수정해주세요   
+        $pass = "";  //수정해주세요   
         $dbName = "eco_project_db";
 
         $dbCon = new mysqli($DBServer, $username, $pass, $dbName);

@@ -33,18 +33,6 @@ session_start();
          <h1>Notice</h1>
          <div class="row">
              <div class="col-md-4">
-                 <div class="card ">
-                     <div class="card-body">
-                         <div class="input-group mb-0">
-                             <input type="text" class="form-control" placeholder="Search..."
-                                 aria-describedby="project-search-addon" />
-                             <div class="input-group-append">
-                                 <button class="btn btn-danger" type="button" id="project-search-addon"><i
-                                         class="fa fa-search search-icon font-12"></i></button>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
              </div>
              <div class="col-md-6"></div>
              <div class="col-md-2 text-center m-auto">
